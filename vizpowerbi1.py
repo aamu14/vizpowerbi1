@@ -26,6 +26,10 @@ Here is a sample image from my visualization results.
             """)
 st.image("Visualization Sample.jpeg")
 
+video_file = open('demo.mp4', 'rb')
+video_bytes = video_file.read()
+st.video(video_bytes)
+
 st.markdown("""
 If you interested more, you can download the file that i provided below:
             """)
