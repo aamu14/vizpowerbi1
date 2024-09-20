@@ -11,7 +11,9 @@ url5 = "https://bit.ly/3WGmBUv"
 
 st.markdown("""
 This dashboard is inspired by the results of a salary survey, indicating that the data used is not real, but randomly generated. The reason for this is that the salary data available in the survey only includes the Q1, Median, and Q3 figures. I felt that this data would be insufficient for my practice, so I opted to use randomly generated salary data instead.
+""")
 
+st.markdown("""
 The randomly generated data was created based on several considerations:
 a) Assuming that the generated data follows a normal distribution.
 b) Assuming that the sample median can be estimated as the same as the sample mean.
