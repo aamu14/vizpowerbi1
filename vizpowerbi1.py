@@ -13,7 +13,7 @@ st.markdown("""
 This dashboard is inspired by the results of a salary survey, indicating that the data used is not real, but randomly generated. The reason for this is that the salary data available in the survey only includes the Q1, Median, and Q3 figures. I felt that this data would be insufficient for my practice, so I opted to use randomly generated salary data instead.
 """)
 
-st.markdown("""
+text1 = """
 The randomly generated data was created based on several considerations:
 a) Assuming that the generated data follows a normal distribution.
 b) Assuming that the sample median can be estimated as the same as the sample mean.
@@ -22,7 +22,9 @@ d) To prevent the salary values from being negative or too low, I decided to set
 e) Finally, I used RStudio to help generate this data, with some assistance from ChatGPT when errors occurred.
 
 There is a new column replacing the Q1, Median, and Q3 values, called "estimated salary." Additionally, there is a new column to check whether the salary obtained is above or below the 2024 minimum wage (UMP) for each province.
-""")
+"""
+st.markdown(text1)
+
 st.markdown("""
 Here is a sample image from my visualization results.
             """)
