@@ -5,6 +5,7 @@ import seaborn as sns
 import pandas as pd
 import numpy as np
 
+# Load the Excel file into a DataFrame
 url3 = "https://bit.ly/SalarySurveyHRDBCT3"
 url4 = "https://bit.ly/VisualizationEstimatedSalarySurvey"
 url5 = "https://bit.ly/3WGmBUv"
@@ -30,6 +31,9 @@ Here is a sample image from my visualization results.
             """)
 st.image("Visualization Sample.jpeg")
 
+st.markdown("""
+Also for additional detail, you can see the video demo below to see how the dashboard interact.
+            """)
 video_file = open('demo.mp4', 'rb')
 video_bytes = video_file.read()
 st.video(video_bytes)
