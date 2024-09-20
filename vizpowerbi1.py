@@ -5,6 +5,12 @@ import seaborn as sns
 import pandas as pd
 import numpy as np
 
+st.set_page_config(
+    page_title="HRDBacot Salary Survey Dashboard",
+    layout="wide"
+)
+st.title('HRDBacot Salary Survey Dashboard')
+
 # Load the Excel file into a DataFrame
 url3 = "https://bit.ly/SalarySurveyHRDBCT3"
 url4 = "https://bit.ly/VisualizationEstimatedSalarySurvey"
