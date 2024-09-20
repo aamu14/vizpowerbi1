@@ -14,12 +14,12 @@ This dashboard is inspired by the results of a salary survey, indicating that th
 """)
 
 text1 = """
-The randomly generated data was created based on several considerations:
-a) Assuming that the generated data follows a normal distribution.
-b) Assuming that the sample median can be estimated as the same as the sample mean.
-c) Since the parameters require the number of data points, the mean, and the standard deviation (SD), the SD value was obtained using the formula SD = (Interquartile Range / 1.35).
-d) To prevent the salary values from being negative or too low, I decided to set a limit that the generated salary values should not be negative and should not deviate too far from the Q1 value.
-e) Finally, I used RStudio to help generate this data, with some assistance from ChatGPT when errors occurred.
+The randomly generated data was created based on several considerations: 
+a) Assuming that the generated data follows a normal distribution. 
+b) Assuming that the sample median can be estimated as the same as the sample mean. 
+c) Since the parameters require the number of data points, the mean, and the standard deviation (SD), the SD value was obtained using the formula SD = (Interquartile Range / 1.35). 
+d) To prevent the salary values from being negative or too low, I decided to set a limit that the generated salary values should not be negative and should not deviate too far from the Q1 value. 
+e) Finally, I used RStudio to help generate this data, with some assistance from ChatGPT when errors occurred. 
 
 There is a new column replacing the Q1, Median, and Q3 values, called "estimated salary." Additionally, there is a new column to check whether the salary obtained is above or below the 2024 minimum wage (UMP) for each province.
 """
