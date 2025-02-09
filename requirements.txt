@@ -4,3 +4,4 @@ pandas==2.2.2
 pillow
 streamlit-aggrid
 seaborn
+altair<5
